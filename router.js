@@ -1,4 +1,4 @@
-var fs = require('fs');
+﻿var fs = require('fs');
 var path = require('path');
 
 function route(handle, pathname, response) {
@@ -8,7 +8,7 @@ function route(handle, pathname, response) {
   } else {
     var filePath = '.' + pathname;
     if (filePath == './')
-    	filePath = './index.html';
+    	filePath = './xebienza.html';
     	
     var extname = path.extname(filePath);
     var contentType = 'text/html';
